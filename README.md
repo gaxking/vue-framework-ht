@@ -59,13 +59,13 @@
 
 项目说明
 ------------
-	1.本框架是在vue-cli的基础上，根据公司的详细情况，进行拓展。主要集成的技术如下:  
-	2.UI框架vux [https://vux.li/#/](https://vux.li/#/)
-	3.微信相关sdk的封装 src/lib/wxTools
-	恒腾密密相关拦截协议 src/lib/appTools
-	http通信封装(含加解密) src/http
-	屏幕适配使用 flexible [https://github.com/amfe/lib-flexible](https://github.com/amfe/lib-flexible)
-	去掉了webpack-dev-server，换成自己的express写法，可动态修改首屏信息 build/dev-server.js
+1.本框架是在vue-cli的基础上，根据公司的详细情况，进行拓展。主要集成的技术如下:  
+2.UI框架vux [https://vux.li/#/](https://vux.li/#/)
+3.微信相关sdk的封装 src/lib/wxTools
+4.恒腾密密相关拦截协议 src/lib/appTools
+5.http通信封装(含加解密) src/http
+6.屏幕适配使用 flexible [https://github.com/amfe/lib-flexible](https://github.com/amfe/lib-flexible)
+7.去掉了webpack-dev-server，换成自己的express写法，可动态修改首屏信息 build/dev-server.js
 
 
 开发注意事项
@@ -104,4 +104,3 @@
 		font-size:14PX;   //大写的PX，不会换成rem，一般字体的大小不参与rem换算
 	}
 ```
-
